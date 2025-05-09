@@ -13,7 +13,7 @@ import {
 import { Input } from '../ui/input';
 import { Button } from '../ui/button';
 
-export default function LoginForm() {
+export default function LoginWithEmailForm() {
     const form = useForm({
         defaultValues: {
             email: '',
